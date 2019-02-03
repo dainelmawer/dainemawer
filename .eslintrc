@@ -1,0 +1,20 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "prettier/react"],
+  "plugins": ["prettier"],
+  "rules": {
+    "react/jsx-filename-extension": 0,
+    "react/jsx-indent": [2, "tab"],
+    "react/no-danger": 0,
+    "prettier/prettier": [
+      "error",
+      {
+        "useTabs": true,
+        "tabWidth": 2,
+        "singleQuote": true,
+        "printWidth": 80,
+        "trailingComma": "all"
+      }
+    ]
+  }
+}
