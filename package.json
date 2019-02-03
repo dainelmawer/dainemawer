@@ -42,6 +42,7 @@
     "stylelint-declaration-use-variable": "^1.7.0",
     "stylelint-order": "^2.0.0",
     "stylelint-prettier": "^1.0.6",
-    "stylelint-scss": "^3.5.2"
+    "stylelint-scss": "^3.5.2",
+    "terser": "^3.14.1"
   }
 }
